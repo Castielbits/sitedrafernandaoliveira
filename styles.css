@@ -1586,6 +1586,17 @@ ul { list-style: none; }
         order: -1;
     }
 
+    /* Adiciona um gradiente escuro sobre as fotos/vídeos para garantir a legibilidade do texto branco que rola por cima */
+    .metodo__foto-track::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background: linear-gradient(180deg, rgba(6, 28, 54, 0.6) 0%, rgba(6, 28, 54, 0.2) 70%, transparent 100%);
+        pointer-events: none; /* Permite que o swipe funcione através do overlay */
+        border-radius: 6px; /* Acompanha o border-radius do container */
+    }
+
     .metodo__desc { max-width: 100%; }
 
     /* Problema — empilha no tablet */
