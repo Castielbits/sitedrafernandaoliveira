@@ -1521,6 +1521,31 @@ ul { list-style: none; }
 
     .nav.nav--open .nav__link:hover { color: var(--mint); }
 
+    /* Ícones sociais no menu mobile */
+    .nav__social {
+        display: none; /* Escondido por padrão */
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 2.5rem;
+        margin-top: 1.5rem;
+        border-top: 1px solid rgba(255,255,255,.07);
+        width: 100%;
+    }
+
+    .nav.nav--open .nav__social {
+        display: flex; /* Visível quando o menu está aberto */
+    }
+
+    .nav__social-link {
+        color: rgba(255,255,255,.4);
+        transition: color .2s, transform .2s;
+    }
+
+    .nav__social-link:hover {
+        color: var(--mint);
+        transform: scale(1.1);
+    }
+
     /* Sobre — empilha no tablet */
     .sobre__grid {
         grid-template-columns: 1fr;
