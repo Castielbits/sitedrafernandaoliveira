@@ -4,3 +4,11 @@
 # Arquivos de sistema operacional
 .DS_Store
 Thumbs.db
+
+# Configurações de editor de código
+.vscode/
+
+# Arquivos de script e documentos que não fazem parte do site final
+*.pdf
+*.py
+*.ps1
