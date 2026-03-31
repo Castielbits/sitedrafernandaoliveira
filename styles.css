@@ -309,6 +309,8 @@ ul { list-style: none; }
     cursor: pointer;
     padding: .25rem;
     margin-left: auto;
+    position: relative;
+    z-index: 999;
 }
 
 .menu-toggle span {
@@ -325,6 +327,11 @@ ul { list-style: none; }
 .menu-toggle.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .menu-toggle.is-open span:nth-child(2) { opacity: 0; }
 .menu-toggle.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Garante que o ícone 'X' fique visível (branco) sobre o fundo escuro do menu, mesmo com a tela rolada */
+.header--scrolled .menu-toggle.is-open span {
+    background: var(--color-white);
+}
 
 
 /* ═══════════════════════════════════════════
