@@ -237,6 +237,14 @@ nav.querySelectorAll('.nav__link').forEach(link => {
 
     steps.forEach(step => obs.observe(step));
 
+    // Clique nos próprios steps também troca
+    steps.forEach(step => {
+        step.addEventListener('click', () => {
+            const idx = parseInt(step.dataset.step, 10);
+            setActive(idx);
+        });
+    });
+
     // Clique nos dots também troca
     dots.forEach(dot => {
         dot.addEventListener('click', () => {

@@ -1552,7 +1552,8 @@ ul { list-style: none; }
     }
 
     .metodo__foto-panel {
-        position: static;
+        position: sticky;
+        top: 7rem; /* Mantém o painel visível ao rolar */
         order: -1;
     }
 
