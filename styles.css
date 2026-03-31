@@ -753,12 +753,15 @@ ul { list-style: none; }
     align-items: center;
     justify-content: center;
     color: rgba(255, 255, 255, .25);
-    transition: color .4s ease;
+    /* Adicionada transição suave com efeito elástico (bounce) para o transform */
+    transition: color .4s ease, transform .5s cubic-bezier(0.34, 1.56, 0.64, 1);
     margin-top: .1rem;
 }
 
 .problema__item.is-active .problema__icon {
     color: var(--mint);
+    /* Aumenta 15% e sobe um pouquinho quando fica ativo */
+    transform: scale(1.15) translateY(-2px);
 }
 
 /* Pergunta */
@@ -1477,7 +1480,8 @@ ul { list-style: none; }
 @media (max-width: 900px) {
     /* Previne a rolagem horizontal (borda branca vazia) em dispositivos móveis */
     html, body {
-        overflow-x: hidden;
+        /* O uso do 'clip' trava a rolagem horizontal MAS não quebra o 'position: sticky' do painel de fotos! */
+        overflow-x: clip;
     }
 
     .nav, .btn--header { display: none; }
