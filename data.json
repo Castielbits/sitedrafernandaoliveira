@@ -1,0 +1,67 @@
+{
+  "hero_bg_path": "Images Banner/Banner-site-dra-Fernana.png",
+  "sobre_foto_path": "Images Banner/sobre mim.png",
+  "hero_title_1": "Volte a viver",
+  "hero_title_destaque": "sem dor",
+  "hero_title_2": "na coluna",
+  "hero_subtitle": "Tratamento fisioterapêutico individual e personalizado,\nfocado nas causas das suas dores.",
+  "sobre_bio_1": "Há mais de 10 anos trato pessoas com dores na coluna. Meu compromisso é oferecer um tratamento personalizado, individual e eficaz.",
+  "sobre_bio_2": "<strong>Formação:</strong><br>\n- Graduação em Fisioterapia pela Faculdade de Ciências Médicas de MG<br>\n- Pós-graduação em Fisioterapia Ortopédica e Esportiva (UNI-BH)<br>\n- Especialização em Dor para Fisioterapeutas (Faculdade Vanguarda)<br>\n- Capacitação em RPG, Liberação Miofascial, Pilates e Terapia Manual<br>\n- Método MOV (Flávia Alves)<br>\n- Membro da SBED (Sociedade Brasileira do Estudo da Dor)",
+  "sobre_bio_3": "Aos 14 anos, uma sessão de RPG mudou minha vida e plantou a semente da minha vocação. Anos depois, entendi que meu joelho não melhorou na segunda experiência com fisioterapia porque não recebi o tratamento e a atenção necessários. Hoje, com mais de 10 anos de experiência, meu compromisso é oferecer exatamente isso: foco, competência e dedicação para cada paciente.",
+  "depoimentos": [
+    {
+      "id": "1",
+      "autor": "Fabrício Ceolin",
+      "texto": "Cheguei na Fernanda com um rompimento de ligamentos total em um, parcial em outro e estiramento no terceiro. Após 3 meses de tratamento, consigo fazer todas minhas atividades esportivas, como jogar tênis de mesa por 3 horas e andar 100km de bicicleta normalmente. Recomendo.",
+      "estrelas": 5
+    },
+    {
+      "id": "2",
+      "autor": "Hulia Santos",
+      "texto": "Cheguei ao consultório com uma dor na cervical que já se prolongava por semanas. Cabeça pesada, a medicação tradicional produzia pouco efeito… já na primeira visita percebi significativa melhora! Excelente profissional!",
+      "estrelas": 5
+    },
+    {
+      "id": "3",
+      "autor": "Denize Dias",
+      "texto": "A Fernanda é uma excelente profissional, muito competente e atenciosa. A ajuda dela foi fundamental no meu tratamento de hérnia de disco extrusa na L5 S1. Tive quadro agudo de crise, com dor irradiando ao longo da perna direita até o pé.",
+      "estrelas": 5
+    },
+    {
+      "id": "4",
+      "autor": "Cristiane Senna",
+      "texto": "Cheguei no consultório da Fernanda e estava com a minha lombar extremamente travada e iniciei o tratamento e vejo o quanto estou sem dor e evoluindo! Excelente profissional, indico de olho fechado. Obrigada Fernanda pela dedicação e paciência!",
+      "estrelas": 5
+    },
+    {
+      "id": "5",
+      "autor": "Claudia Faria",
+      "texto": "Fiz o tratamento por causa de uma dor no ombro com a Dra Fernanda e recomendo demais. Hoje estou bem e retomei com os exercícios na academia.",
+      "estrelas": 5
+    },
+    {
+      "id": "6",
+      "autor": "Wilson Mozer",
+      "texto": "Foi uma descoberta maravilhosa... Fernanda é muito atenciosa em todos os detalhes. Com 2 semanas de tratamento já estava me sentindo muito melhor. Recomendo demais para quem sofre com aquelas dores na coluna.",
+      "estrelas": 5
+    },
+    {
+      "id": "7",
+      "autor": "Bruna Soares",
+      "texto": "O atendimento da Fernanda, além de muito bem feito, é humanizado demais. Me senti muito à vontade com ela, que procurou entender toda minha demanda e me atender conforme a necessidade ao longo do tratamento inteiro.",
+      "estrelas": 5
+    },
+    {
+      "id": "8",
+      "autor": "Tatiana Pires Maia",
+      "texto": "Cheguei com dor miofascial crônica que está sendo muito bem tratada pela Fernanda. Já na primeira sessão senti a diferença, a liberação miofascial que ela faz é excelente. Super recomendo.",
+      "estrelas": 5
+    },
+    {
+      "id": "9",
+      "autor": "Lais Camargo",
+      "texto": "Gostaria de registrar meu agradecimento a Fernanda. Fui diagnosticada com desgaste degenerativo da coluna. Fiz 2 cirurgias (Lombar e Cervical). Cheguei na Fernanda travada, sem mobilidade, força depois de 7 meses de pós cirúrgico.",
+      "estrelas": 5
+    }
+  ]
+}

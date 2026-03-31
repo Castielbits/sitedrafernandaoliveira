@@ -1,0 +1,5 @@
+# Permite que todos os robôs de busca acessem todo o site.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.seudominio.com.br/sitemap.xml

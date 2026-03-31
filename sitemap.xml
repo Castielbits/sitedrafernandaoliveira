@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Página Principal -->
+  <url>
+    <loc>https://www.seudominio.com.br/</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Seções -->
+  <url>
+    <loc>https://www.seudominio.com.br/#sobre</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/#metodo</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/#depoimentos</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/#perguntas</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.seudominio.com.br/#contato</loc>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>

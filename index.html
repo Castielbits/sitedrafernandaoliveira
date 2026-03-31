@@ -1,0 +1,995 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Oliveira | Fisioterapeuta Especialista em Coluna</title>
+    <meta name="description"
+        content="Fisioterapia especializada em dores na coluna em Belo Horizonte. Método Coluna Livre — tratamento individual e personalizado focado nas causas da sua dor. Santo Agostinho, BH. CREFITO4: 192812F">
+    <meta name="geo.region" content="BR-MG">
+    <meta name="geo.placename" content="Belo Horizonte">
+    <meta name="geo.position" content="-19.932;-43.938">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Fernanda Oliveira | Fisioterapeuta — Método Coluna Livre">
+    <meta property="og:description"
+        content="Sofre com dores na coluna que voltam sempre? O Método Coluna Livre trata a causa, não só o sintoma. Atendimento em Belo Horizonte e online. CREFITO4: 192812F">
+    <meta property="og:image" content="Images Banner/Banner-site-dra-Fernana.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fernanda Oliveira | Fisioterapeuta — Método Coluna Livre">
+    <meta name="twitter:description"
+        content="Sofre com dores na coluna que voltam sempre? O Método Coluna Livre trata a causa, não só o sintoma.">
+    <meta name="twitter:image" content="Images Banner/Banner-site-dra-Fernana.png">
+    
+    <link rel="canonical" href="https://www.seudominio.com.br/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images Banner/logocomcor.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════
+         INTRO — logo animada
+    ═══════════════════════════════════════ -->
+    <div id="intro" class="intro" aria-hidden="true">
+        <video class="intro__video" id="introVideo" src="Images Banner/logo animada fundo preto.mp4" muted playsinline
+            preload="auto" aria-hidden="true">
+        </video>
+    </div>
+
+
+    <!-- ═══════════════════════════════════════
+         HEADER
+    ═══════════════════════════════════════ -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+
+            <a href="#inicio" class="logo">
+                <div class="logo__icon" aria-hidden="true">
+                    <img src="Images Banner/LOGO.png" alt="" class="logo__img">
+                </div>
+                <div class="logo__text">
+                    <span class="logo__name">Fernanda Oliveira</span>
+                    <span class="logo__title">Fisioterapeuta</span>
+                </div>
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#metodo" class="nav__link">Tratamentos</a></li>
+                    <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+                class="btn btn--header" target="_blank" rel="noopener">
+                Agendar consulta
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ═══════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════ -->
+    <section class="hero" id="inicio">
+        <div class="hero__bg">
+            <img src="Images Banner/Banner-site-dra-Fernana.png" alt="Dra. Fernanda Oliveira Fisioterapeuta"
+                class="hero__image">
+        </div>
+
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <span class="tagline">LIBERDADE DOS MOVIMENTOS</span>
+
+                <h1 class="hero__title">
+                    Volte a viver<br>
+                    <em>sem dor</em> na coluna
+                </h1>
+
+                <p class="hero__subtitle">
+                    Tratamento fisioterapêutico individual e personalizado,<br class="hide-mobile">
+                    focado nas causas das suas dores.
+                </p>
+
+                <div class="hero__actions">
+                    <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+                        class="btn btn--primary" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Agendar consulta
+                    </a>
+                </div>
+
+                <div class="hero__meta">
+                    <p class="small">CREFITO4: 192812F · +10 anos de experiência</p>
+                    <p class="hero__location">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        Consultório Santo Agostinho, Belo Horizonte - MG
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         ZONA ESCURA — SEÇÕES 02 + 03
+    ═══════════════════════════════════════ -->
+    <div class="zona-escura">
+
+        <!-- ── BLOCO 02: O PROBLEMA ── -->
+        <section id="problema" class="bloco-problema">
+            <div class="container problema__grid">
+
+                <!-- Coluna esquerda -->
+                <div class="problema__col-left">
+                    <span class="section-label section-label--light reveal">O PROBLEMA</span>
+                    <h2 class="problema__title reveal reveal--d1">
+                        A dor na coluna está<br>
+                        <em>limitando</em><br>
+                        a sua vida?
+                    </h2>
+                    <p class="problema__intro reveal reveal--d2">
+                        Provavelmente o problema não está só na dor em si, mas na forma como o seu corpo está se
+                        movimentando no dia a dia.
+                    </p>
+
+                    <div class="problema__dots" role="tablist" aria-label="Navegação das perguntas">
+                        <button class="problema__dot is-active" data-idx="0" role="tab" aria-selected="true"
+                            aria-label="Pergunta 1"></button>
+                        <button class="problema__dot" data-idx="1" role="tab" aria-selected="false"
+                            aria-label="Pergunta 2"></button>
+                        <button class="problema__dot" data-idx="2" role="tab" aria-selected="false"
+                            aria-label="Pergunta 3"></button>
+                    </div>
+                </div>
+
+                <!-- Coluna direita: perguntas -->
+                <div class="problema__lista">
+
+                    <div class="problema__item is-active" data-idx="0" role="tabpanel">
+                        <div class="problema__item-top">
+                            <div class="problema__icon" aria-hidden="true">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                    <path d="M3 3v5h5" />
+                                </svg>
+                            </div>
+                            <p class="problema__question">Você sente dor na coluna, nos ombros ou no pescoço que melhora
+                                e depois volta?</p>
+                        </div>
+                        <div class="problema__progress" aria-hidden="true"><span></span></div>
+                    </div>
+
+                    <div class="problema__item" data-idx="1" role="tabpanel">
+                        <div class="problema__item-top">
+                            <div class="problema__icon" aria-hidden="true">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="3" />
+                                    <path d="M6.5 20c0-3.04 2.46-5.5 5.5-5.5s5.5 2.46 5.5 5.5" />
+                                    <path d="M3 12h1m16 0h1M12 3V2m0 20v-1" />
+                                </svg>
+                            </div>
+                            <p class="problema__question">Tem dificuldade para trabalhar, dormir, se exercitar ou
+                                simplesmente aproveitar o dia a dia sem desconforto?</p>
+                        </div>
+                        <div class="problema__progress" aria-hidden="true"><span></span></div>
+                    </div>
+
+                    <div class="problema__item" data-idx="2" role="tabpanel">
+                        <div class="problema__item-top">
+                            <div class="problema__icon" aria-hidden="true">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8" />
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                    <line x1="11" y1="8" x2="11" y2="14" />
+                                    <line x1="8" y1="11" x2="14" y2="11" />
+                                </svg>
+                            </div>
+                            <p class="problema__question">Já tentou vários tratamentos, mas a dor sempre retorna?</p>
+                        </div>
+                        <div class="problema__progress" aria-hidden="true"><span></span></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ── DIVISOR ── -->
+        <div class="secao-divisor" aria-hidden="true">
+            <span></span>
+            <div class="secao-divisor__icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path
+                        d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                </svg>
+            </div>
+            <span></span>
+        </div>
+
+        <!-- ── BLOCO 03: MÉTODO COLUNA LIVRE ── -->
+        <section id="metodo" class="bloco-metodo">
+
+            <!-- Cabeçalho premium acima do grid -->
+            <div class="container metodo__header">
+                <span class="section-label section-label--light reveal">MÉTODO COLUNA LIVRE</span>
+                <div class="metodo__header-inner">
+                    <h2 class="metodo__title reveal reveal--d1">
+                        Método Coluna Livre
+                    </h2>
+                    <div class="metodo__header-right">
+                        <p class="metodo__lead reveal reveal--d2">
+                            O objetivo não é só aliviar a dor. É fazer com que ela deixe de voltar.
+                        </p>
+                        <p class="metodo__desc reveal reveal--d3">
+                            Pensando nisso, eu criei o Método Coluna Livre. Aqui, eu não foco apenas em tratar o sintoma
+                            ou o local da dor de forma pontual. Eu procuro entender como você se movimenta, como é a sua
+                            rotina e o que está mantendo esse ciclo de dor. A partir disso, iniciamos um processo
+                            estruturado em etapas. Durante esse processo, utilizo diferentes recursos de acordo com a
+                            sua necessidade, como RPG, liberação miofascial, exercícios específicos e orientações
+                            práticas para o seu dia a dia. Mas o mais importante não é a técnica isolada. É como tudo
+                            isso, junto, faz sentido na sua rotina.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid: etapas + foto sticky -->
+            <div class="container metodo__grid">
+
+                <!-- Coluna esquerda: etapas -->
+                <div class="metodo__steps">
+
+                    <div class="metodo__step" data-step="0">
+                        <div class="metodo__step-header">
+                            <span class="metodo__step-num">01</span>
+                            <h3 class="metodo__step-title">Mapa de Liberdade de Movimento</h3>
+                        </div>
+                        <p class="metodo__step-desc">
+                            Avaliação detalhada dos movimentos que o seu corpo tolera e não tolera, da sua rotina, e do
+                            que está mantendo o ciclo de dor.
+                        </p>
+                    </div>
+
+                    <div class="metodo__step" data-step="1">
+                        <div class="metodo__step-header">
+                            <span class="metodo__step-num">02</span>
+                            <h3 class="metodo__step-title">Reorganização do Movimento</h3>
+                        </div>
+                        <p class="metodo__step-desc">
+                            Utilizando RPG, liberação miofascial, exercícios específicos e orientações práticas,
+                            reorganizamos a forma como seu corpo se movimenta no dia a dia.
+                        </p>
+                    </div>
+
+                    <div class="metodo__step" data-step="2">
+                        <div class="metodo__step-header">
+                            <span class="metodo__step-num">03</span>
+                            <h3 class="metodo__step-title">Autonomia e Liberdade</h3>
+                        </div>
+                        <p class="metodo__step-desc">
+                            Objetivo é que você volte a se movimentar com liberdade e segurança, sem depender de
+                            tratamento constante.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Coluna direita: foto sticky com crossfade -->
+                <div class="metodo__foto-panel" id="metodoPainelFoto">
+                    <div class="metodo__foto-track">
+                        <div class="metodo__foto-slide is-active" data-slide="0">
+                            <img src="Images Banner/sessao2/Entenderoseumovimento.png" alt="Entender o seu movimento"
+                                class="metodo__foto-img">
+                        </div>
+                        <div class="metodo__foto-slide" data-slide="1">
+                            <video class="metodo__foto-img" src="Images Banner/sessao2/video2.mp4" muted playsinline
+                                loop preload="metadata">
+                            </video>
+                        </div>
+                        <div class="metodo__foto-slide" data-slide="2">
+                            <video class="metodo__foto-img" src="Images Banner/sessao2/video3.mp4" muted playsinline
+                                loop preload="metadata">
+                            </video>
+                        </div>
+                    </div>
+                    <!-- Indicadores -->
+                    <div class="metodo__foto-dots">
+                        <span class="metodo__foto-dot is-active" data-dot="0"></span>
+                        <span class="metodo__foto-dot" data-dot="1"></span>
+                        <span class="metodo__foto-dot" data-dot="2"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA após as etapas -->
+            <div class="metodo__cta">
+                <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+                    class="btn btn--primary" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Quero começar meu tratamento
+                </a>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ═══════════════════════════════════════
+         QUEM ATENDO
+    ═══════════════════════════════════════ -->
+    <section id="condicoes" class="bloco-condicoes">
+        <div class="container">
+
+            <div class="condicoes__header">
+                <span class="section-label section-label--light reveal">QUEM ATENDO</span>
+                <h2 class="condicoes__title reveal reveal--d1">Você se identifica<br>com algum desses?</h2>
+            </div>
+
+            <div class="condicoes__grid">
+
+                <div class="condicoes__card reveal reveal--d1">
+                    <span class="condicoes__num">01</span>
+                    <h3 class="condicoes__card-title">Hérnia que dói todo dia — mas disseram que "não precisa operar"
+                    </h3>
+                    <p class="condicoes__card-desc">Você tomou anti-inflamatório, melhorou um pouco, e a dor voltou.
+                        Esse ciclo tem solução — sem cirurgia e sem depender de remédio para sempre.</p>
+                </div>
+
+                <div class="condicoes__card reveal reveal--d2">
+                    <span class="condicoes__num">02</span>
+                    <h3 class="condicoes__card-title">Dor na lombar que some por semanas e inevitavelmente volta</h3>
+                    <p class="condicoes__card-desc">Às vezes dói ao sentar. Às vezes ao se levantar. Às vezes passa
+                        sozinha — mas nunca vai embora de vez. Esse padrão tem uma causa, e é isso que a gente vai
+                        tratar.</p>
+                </div>
+
+                <div class="condicoes__card reveal reveal--d3">
+                    <span class="condicoes__num">03</span>
+                    <h3 class="condicoes__card-title">Pescoço em crise, dor de cabeça e tensão que não passam</h3>
+                    <p class="condicoes__card-desc">Passa o dia na tela, e no fim do dia o pescoço está travado? Não é
+                        frescura — é um padrão de movimento que pode ser mudado com o tratamento certo.</p>
+                </div>
+
+                <div class="condicoes__card reveal reveal--d1">
+                    <span class="condicoes__num">04</span>
+                    <h3 class="condicoes__card-title">Ombro que dói ao levantar o braço, dormir ou fazer qualquer coisa
+                    </h3>
+                    <p class="condicoes__card-desc">Tendinite, bursite, impacto — os nomes mudam, mas o problema é o
+                        mesmo. Repouso e anti-inflamatório aliviam; o tratamento certo resolve.</p>
+                </div>
+
+                <div class="condicoes__card reveal reveal--d2">
+                    <span class="condicoes__num">05</span>
+                    <h3 class="condicoes__card-title">Escoliose ou postura que piora com o tempo</h3>
+                    <p class="condicoes__card-desc">Não é só estético. Desvios na coluna afetam a forma como você se
+                        move, sente dor e carrega tensão no corpo. Existe tratamento ativo — e faz diferença.</p>
+                </div>
+
+                <div class="condicoes__card reveal reveal--d3">
+                    <span class="condicoes__num">06</span>
+                    <h3 class="condicoes__card-title">Pós-cirurgia: quer se recuperar certo, sem atalhos</h3>
+                    <p class="condicoes__card-desc">Depois de uma cirurgia de coluna, a reabilitação é parte essencial
+                        do resultado. Protocolo individual, sem pressa — com foco no seu retorno à vida normal.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         SOBRE MIM (SESSÃO 3)
+    ═══════════════════════════════════════ -->
+    <section id="sobre" class="bloco-sobre">
+        <div class="container sobre__grid">
+
+            <!-- Foto -->
+            <div class="sobre__foto-wrap reveal reveal--fade">
+                <img src="Images Banner/sobre mim.png" alt="Dra. Fernanda Oliveira" class="sobre__foto" id="sobreFoto">
+
+
+                <!-- Badge flutuante — cabeça, lado direito -->
+                <div class="foto-badge foto-badge--top">
+                    <div class="foto-badge__icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <div class="foto-badge__text">
+                        <span class="foto-badge__num">CREFITO4</span>
+                        <span class="foto-badge__label">192812F · Registro ativo</span>
+                    </div>
+                </div>
+
+                <!-- Badge flutuante — perto dos pés, lado esquerdo -->
+                <div class="foto-badge foto-badge--bottom">
+                    <div class="foto-badge__icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>
+                    </div>
+                    <div class="foto-badge__text">
+                        <span class="foto-badge__num">+10 anos</span>
+                        <span class="foto-badge__label">de experiência</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Texto -->
+            <div class="sobre__content">
+                <span class="section-label reveal">SOBRE MIM</span>
+                <h2 class="sobre__title reveal reveal--d1">
+                    Fernanda de Souza Oliveira
+                </h2>
+                <p class="sobre__subtitle reveal reveal--d2">Fisioterapeuta - CREFITO4: 192812F</p>
+                <p class="sobre__bio reveal reveal--d3">
+                    Há mais de 10 anos trato pessoas com dores na coluna. Meu compromisso é oferecer um tratamento
+                    personalizado, individual e eficaz.
+                </p>
+                <p class="sobre__bio reveal reveal--d4">
+                    <strong>Formação:</strong><br>
+                    - Graduação em Fisioterapia pela Faculdade de Ciências Médicas de MG<br>
+                    - Pós-graduação em Fisioterapia Ortopédica e Esportiva (UNI-BH)<br>
+                    - Especialização em Dor para Fisioterapeutas (Faculdade Vanguarda)<br>
+                    - Capacitação em RPG, Liberação Miofascial, Pilates e Terapia Manual<br>
+                    - Método MOV (Flávia Alves)<br>
+                    - Membro da SBED (Sociedade Brasileira do Estudo da Dor)
+                </p>
+                <p class="sobre__bio reveal reveal--d5">
+                    Aos 14 anos, uma sessão de RPG mudou minha vida e plantou a semente da minha vocação. Anos depois,
+                    entendi que meu joelho não melhorou na segunda experiência com fisioterapia porque não recebi o
+                    tratamento e a atenção necessários. Hoje, com mais de 10 anos de experiência, meu compromisso é
+                    oferecer exatamente isso: foco, competência e dedicação para cada paciente.
+                </p>
+                <div class="sobre__badge reveal reveal--d6">
+                    <span>CREFITO4: 192812F</span>
+                    <span class="sobre__badge-sep">·</span>
+                    <span>+10 anos de experiência</span>
+                </div>
+
+                <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+                    class="btn btn--primary sobre__cta reveal reveal--d6" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Agendar consulta
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         BARRA DE STATS
+    ═══════════════════════════════════════ -->
+    <div class="bloco-stats">
+        <div class="container stats__grid">
+            <div class="stat__item">
+                <span class="stat__num" data-count="10" data-prefix="+">+10</span>
+                <span class="stat__label">anos de experiência em fisioterapia</span>
+            </div>
+            <div class="stat__sep" aria-hidden="true"></div>
+            <div class="stat__item">
+                <span class="stat__num" data-count="100" data-suffix="%">100%</span>
+                <span class="stat__label">atendimento individual e personalizado</span>
+            </div>
+            <div class="stat__sep" aria-hidden="true"></div>
+            <div class="stat__item">
+                <span class="stat__num">BH</span>
+                <span class="stat__label">presencial em Santo Agostinho + online</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ═══════════════════════════════════════
+         DEPOIMENTOS
+    ═══════════════════════════════════════ -->
+    <section id="depoimentos" class="bloco-depoimentos">
+        <div class="container">
+
+            <div class="secao-center-header">
+                <span class="section-label reveal">DEPOIMENTOS</span>
+                <h2 class="depoimentos__title reveal reveal--d1">O que os pacientes dizem</h2>
+            </div>
+
+            <div class="depoimentos__grid">
+
+                <div class="depoimento__card reveal reveal--d1">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Cheguei na Fernanda com um rompimento de ligamentos total em um, parcial em outro e estiramento
+                        no terceiro. Após 3 meses de tratamento, consigo fazer todas minhas atividades esportivas, como
+                        jogar tênis de mesa por 3 horas e andar 100km de bicicleta normalmente. Recomendo."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">F</div>
+                        <div>
+                            <p class="depoimento__nome">Fabrício Ceolin</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d2">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Cheguei ao consultório com uma dor na cervical que já se prolongava por semanas. Cabeça pesada,
+                        a medicação tradicional produzia pouco efeito… já na primeira visita percebi significativa
+                        melhora! Excelente profissional!"
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">H</div>
+                        <div>
+                            <p class="depoimento__nome">Hulia Santos</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d3">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "A Fernanda é uma excelente profissional, muito competente e atenciosa. A ajuda dela foi
+                        fundamental no meu tratamento de hérnia de disco extrusa na L5 S1. Tive quadro agudo de crise,
+                        com dor irradiando ao longo da perna direita até o pé."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">D</div>
+                        <div>
+                            <p class="depoimento__nome">Denize Dias</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d1">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Cheguei no consultório da Fernanda e estava com a minha lombar extremamente travada e iniciei o
+                        tratamento e vejo o quanto estou sem dor e evoluindo! Excelente profissional, indico de olho
+                        fechado. Obrigada Fernanda pela dedicação e paciência!"
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">C</div>
+                        <div>
+                            <p class="depoimento__nome">Cristiane Senna</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d2">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Fiz o tratamento por causa de uma dor no ombro com a Dra Fernanda e recomendo demais. Hoje
+                        estou bem e retomei com os exercícios na academia."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">C</div>
+                        <div>
+                            <p class="depoimento__nome">Claudia Faria</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d3">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Foi uma descoberta maravilhosa... Fernanda é muito atenciosa em todos os detalhes. Com 2
+                        semanas de tratamento já estava me sentindo muito melhor. Recomendo demais para quem sofre com
+                        aquelas dores na coluna."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">W</div>
+                        <div>
+                            <p class="depoimento__nome">Wilson Mozer</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d1">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "O atendimento da Fernanda, além de muito bem feito, é humanizado demais. Me senti muito à
+                        vontade com ela, que procurou entender toda minha demanda e me atender conforme a necessidade ao
+                        longo do tratamento inteiro."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">B</div>
+                        <div>
+                            <p class="depoimento__nome">Bruna Soares</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d2">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Cheguei com dor miofascial crônica que está sendo muito bem tratada pela Fernanda. Já na
+                        primeira sessão senti a diferença, a liberação miofascial que ela faz é excelente. Super
+                        recomendo."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">T</div>
+                        <div>
+                            <p class="depoimento__nome">Tatiana Pires Maia</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento__card reveal reveal--d3">
+                    <div class="depoimento__stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="depoimento__texto">
+                        "Gostaria de registrar meu agradecimento a Fernanda. Fui diagnosticada com desgaste degenerativo
+                        da coluna. Fiz 2 cirurgias (Lombar e Cervical). Cheguei na Fernanda travada, sem mobilidade,
+                        força depois de 7 meses de pós cirúrgico."
+                    </blockquote>
+                    <div class="depoimento__autor">
+                        <div class="depoimento__avatar" aria-hidden="true">L</div>
+                        <div>
+                            <p class="depoimento__nome">Lais Camargo</p>
+                            <p class="depoimento__detalhe">Avaliação do Google</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            
+            <div class="depoimentos__cta reveal reveal--d2">
+                <a href="https://share.google/YHRbQ8A6KswMTyXDe"
+                   class="btn" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right:0.5rem">
+                        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                    </svg>
+                    Veja mais no Google
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         SEÇÃO ÉPICA / CTA PARALLAX (OVERLAP)
+    ═══════════════════════════════════════ -->
+    <section class="bloco-epico">
+        <div class="bloco-epico__bg" style="background-image: url('Images Banner/background.jpg');"></div>
+        <div class="bloco-epico__overlay"></div>
+
+        <div class="container bloco-epico__grid">
+            <div class="bloco-epico__text-col">
+                <span class="section-label reveal">Seu corpo em equilíbrio</span>
+                <h2 class="bloco-epico__title reveal reveal--d1">A conexão<br>entre saúde<br>e <em>felicidade.</em></h2>
+                <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0" class="btn btn--primary reveal reveal--d2" target="_blank" rel="noopener" style="margin-top:2.5rem;">
+                    Agendar avaliação
+                </a>
+            </div>
+            
+            <div class="bloco-epico__img-col reveal reveal--fade reveal--d3">
+                <img src="Images Banner/fotoepica.png" alt="Transformação e saúde" class="bloco-epico__foto-front">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         INSTAGRAM
+    ═══════════════════════════════════════ -->
+    <section class="bloco-insta">
+
+        <div class="container insta__header">
+            <span class="section-label section-label--light reveal">INSTAGRAM</span>
+            <div class="insta__header-inner">
+                <h2 class="insta__title reveal reveal--d1">
+                    Dicas de coluna<br>
+                    <em>toda semana</em>
+                </h2>
+                <a href="https://www.instagram.com/fernandaolfisio/" class="btn insta__btn reveal reveal--d2"
+                    target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                        <circle cx="12" cy="12" r="4" />
+                        <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
+                    </svg>
+                    @fernandaolfisio
+                </a>
+            </div>
+        </div>
+
+        <!-- Embeds reais do Instagram -->
+        <div class="insta__embeds-row">
+            <div class="insta__embed-wrap">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUaoBIujqmi/"
+                    data-instgrm-version="14">
+                </blockquote>
+            </div>
+            <div class="insta__embed-wrap">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DWThp0HDsuD/"
+                    data-instgrm-version="14">
+                </blockquote>
+            </div>
+            <div class="insta__embed-wrap">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DV8U7GTDjGv/"
+                    data-instgrm-version="14">
+                </blockquote>
+            </div>
+            <div class="insta__embed-wrap">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DVelBZIkjRy/"
+                    data-instgrm-version="14">
+                </blockquote>
+            </div>
+        </div>
+
+    </section>
+
+    <script async src="https://www.instagram.com/embed.js"></script>
+
+
+    <!-- ═══════════════════════════════════════
+         PERGUNTAS FREQUENTES
+    ═══════════════════════════════════════ -->
+    <section id="perguntas" class="bloco-perguntas">
+        <div class="container">
+
+            <div class="secao-center-header">
+                <span class="section-label reveal">PERGUNTAS FREQUENTES</span>
+                <h2 class="perguntas__title reveal reveal--d1">Dúvidas mais comuns</h2>
+            </div>
+
+            <div class="perguntas__lista">
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>Como funciona o tratamento?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>O tratamento é feito por meio do Método Coluna Livre, um processo estruturado em etapas.
+                            Começamos pelo Mapa de Liberdade de Movimento, onde é realizada uma avaliação detalhada dos
+                            movimentos que o seu corpo tolera e não tolera, da sua rotina, e a partir disso
+                            reorganizamos a forma como seu corpo se movimenta no dia a dia, até que você tenha mais
+                            liberdade e menos dor.</p>
+                    </div>
+                </div>
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>Quantas sessões vou precisar?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>O tratamento é organizado por um período de acompanhamento, não por quantidade de sessões. O
+                            objetivo não é um alívio pontual, e sim mudar o padrão que faz a dor voltar.</p>
+                    </div>
+                </div>
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>Você passa exercícios?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>Sim, dentro da necessidade e realidade de cada paciente. Mas o foco não é apenas passar
+                            exercícios, e sim orientar como o seu corpo deve se movimentar ao longo do dia. Os
+                            exercícios fazem parte do processo, mas não são o centro dele.</p>
+                    </div>
+                </div>
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>O tratamento é só presencial?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>Não. Os atendimentos podem ser presenciais ou online, e você também conta com suporte ao
+                            longo do processo para ajustar o que for necessário no seu dia a dia.</p>
+                    </div>
+                </div>
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>Você usa quais técnicas?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>RPG, liberação miofascial, exercícios específicos, treino de equilíbrio, mobilidade,
+                            fortalecimento muscular, orientações de posicionamento e do dia a dia, de forma
+                            personalizada. O mais importante não é a técnica isolada, e sim como tudo isso é integrado
+                            para funcionar na sua rotina.</p>
+                    </div>
+                </div>
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>Esse tratamento é para qualquer tipo de dor?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>O método é indicado principalmente para dores na coluna, pescoço e ombros que melhoram e
+                            depois voltam, especialmente quando estão relacionadas à rotina e ao padrão de movimento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="perguntas__item">
+                    <button class="perguntas__btn" aria-expanded="false">
+                        <span>Vou precisar fazer tratamento para sempre?</span>
+                        <svg class="perguntas__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="perguntas__resp">
+                        <p>Não. O objetivo do Método Coluna Livre é justamente o contrário: que você ganhe autonomia e
+                            não dependa de tratamento constante.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         CONTATO
+    ═══════════════════════════════════════ -->
+    <section id="contato" class="bloco-contato">
+        <div class="container">
+            <span class="section-label section-label--light reveal">CONTATO</span>
+            <h2 class="contato__title reveal reveal--d1">
+                Não deixe a dor<br>limitar a sua vida
+            </h2>
+            <p class="contato__subtitle reveal reveal--d2">
+                Agende sua consulta e dê o primeiro passo para se movimentar com liberdade.
+            </p>
+            <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+                class="btn btn--primary reveal reveal--d3" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                Agendar Consulta pelo WhatsApp
+            </a>
+
+            <div class="contato__mapa reveal reveal--d4">
+                <iframe
+                    src="https://maps.google.com/maps?q=Rua+Matias+Cardoso,+63,+Santo+Agostinho,+Belo+Horizonte,+MG&output=embed&hl=pt"
+                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localização do consultório - Rua Matias Cardoso, 63, Santo Agostinho, BH">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container footer__inner">
+
+            <div class="footer__brand">
+                <a href="#inicio" class="footer__logo">
+                    <img src="Images Banner/LOGO.png" alt="" class="footer__logo-img">
+                    <div class="footer__logo-text">
+                        <span class="footer__logo-name">Fernanda Oliveira</span>
+                        <span class="footer__logo-role">Fisioterapeuta</span>
+                    </div>
+                </a>
+                <p class="footer__tagline">Movimento com liberdade e sem dor.</p>
+            </div>
+
+            <div class="footer__col">
+                <p class="footer__label">Contato</p>
+                <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+                    class="footer__link" target="_blank" rel="noopener">WhatsApp: (31) 99494-5801</a>
+                <a href="https://instagram.com/fernandaolfisio" class="footer__link" target="_blank"
+                    rel="noopener">@fernandaolfisio</a>
+            </div>
+
+            <div class="footer__col">
+                <p class="footer__label">Endereço</p>
+                <p class="footer__address">
+                    Rua Matias Cardoso, 63 — Sala 1401<br>
+                    Santo Agostinho, Belo Horizonte — MG
+                </p>
+            </div>
+
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>CREFITO4: 192812F &nbsp;·&nbsp; © 2025 Fernanda Oliveira. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send/?phone=5531994945801&text&type=phone_number&app_absent=0"
+        class="whatsapp-float" target="_blank" rel="noopener" aria-label="Agendar consulta pelo WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

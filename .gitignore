@@ -1,0 +1,6 @@
+# Ignorar a pasta do ambiente PHP local para não enviar o executável para o Git
+.php-local/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
