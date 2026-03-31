@@ -527,9 +527,9 @@ ul { list-style: none; }
 .bloco-sobre::before {
     content: '';
     position: absolute;
-    right: 6%;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     width: clamp(280px, 38vw, 480px);
     height: clamp(280px, 38vw, 480px);
     background-image: url('Images Banner/LOGO.png');
@@ -1636,9 +1636,9 @@ ul { list-style: none; }
     }
 
     .depoimentos__grid {
-        display: flex !important;
+        display: flex;
         flex-wrap: nowrap;
-        overflow-x: auto !important;
+        overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         padding-bottom: 2rem;
@@ -2285,13 +2285,22 @@ ul { list-style: none; }
     width: 100%;
     max-width: 440px;
     aspect-ratio: 1 / 1;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 50%; /* Corta toda a borda quadrada e a deixa perfeitamente redonda */
     background-color: #ffffff; /* Preenche fundo transparente com branco sólido! */
     /* Sombra projetada perfeitamente difusa no piso */
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
     /* Animação Float */
     animation: floatEpico 5s ease-in-out infinite;
+    /* Adiciona um respiro para a logo não colar nas bordas do círculo */
+    padding: 2.5rem;
+    /* Efeito de hover: começa em P&B e fica colorido */
+    filter: grayscale(1);
+    transition: filter 0.4s ease-in-out;
+}
+
+.bloco-epico:hover .bloco-epico__foto-front {
+    filter: grayscale(0);
 }
 
 @keyframes floatEpico {

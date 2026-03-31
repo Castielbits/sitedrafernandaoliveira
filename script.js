@@ -190,10 +190,14 @@ nav.querySelectorAll('.nav__link').forEach(link => {
     const steps  = document.querySelectorAll('.metodo__step[data-step]');
     const slides = document.querySelectorAll('.metodo__foto-slide[data-slide]');
     const dots   = document.querySelectorAll('.metodo__foto-dot[data-dot]');
+    const panel  = document.getElementById('metodoPainelFoto');
 
-    if (!steps.length || !slides.length) return;
+    if (!steps.length || !slides.length || !panel) return;
+
+    let currentIndex = 0;
 
     function setActive(idx) {
+        currentIndex = idx;
         // Etapas
         steps.forEach((s, i) => s.classList.toggle('is-active', i === idx));
         // Slides
@@ -244,6 +248,38 @@ nav.querySelectorAll('.nav__link').forEach(link => {
             }
         });
     });
+
+    // Lógica de swipe para o painel de fotos
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const swipeThreshold = 50; // Mínimo de pixels para considerar um swipe
+
+    panel.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    panel.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+        const swipeDistance = touchEndX - touchStartX;
+
+        if (Math.abs(swipeDistance) < swipeThreshold) return;
+
+        let newIndex;
+        if (swipeDistance < 0) { // Swipe para a esquerda (próximo)
+            newIndex = (currentIndex + 1) % slides.length;
+        } else { // Swipe para a direita (anterior)
+            newIndex = (currentIndex - 1 + slides.length) % slides.length;
+        }
+
+        setActive(newIndex);
+        if (steps[newIndex]) {
+            steps[newIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
 }());
 
 
